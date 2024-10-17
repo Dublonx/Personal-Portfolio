@@ -54,3 +54,9 @@ function scrollToTop() {
         behavior: "smooth"
     });
 }
+
+// loading screen
+setTimeout(() => {
+    const loader = document.querySelector('.loader').style.display = "none";
+    const content = document.querySelector('.content').style.display = "block";
+}, 3000)

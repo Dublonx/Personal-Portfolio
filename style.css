@@ -39,7 +39,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
-    display: none;
+    display: block;
 }
   
 @keyframes l3 {
@@ -50,7 +50,7 @@ body {
 }
 
 .content {
-    display: block;
+    display: none;
 }
 
 .navbar {
@@ -366,7 +366,7 @@ section h3::after {
 @media screen and (max-width: 420px) {
     /* portfolio */
     .content {
-        display: block;
+        display: none;
     }
 
     .navbar h2 {
