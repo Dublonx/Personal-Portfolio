@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" href="Image/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- portfolio -->
+    <div class="loader"></div>
+
+    <div class="content">
+        <!-- navbar -->
+        <div class="navbar">
+            <h2>Jm<span>xnz.</span></h2>
+            <nav id="sidenav">
+                <i class="fa-solid fa-xmark" id="xmark"></i>
+                <ul>
+                    <li><a href="#home" class="navLink">Home</a></li>
+                    <li><a href="#about" class="navLink">About</a></li>
+                    <li><a href="#projects" class="navLink">Projects</a></li>
+                    <li><a href="#contact" class="navLink">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars" id="bars"></i>
+        </div>
+
+        <!-- home -->
+        <section id="home">
+            <div class="main-home">
+                <div class="home-text">
+                    <h4>Be Creative</h4>
+                    <h2>Hi, I am Jm Dublon</h2>
+                    <p>I'm, <span id="text"></span></p>
+                    <small>Bachelor Science in Information Technology</small>
+                    <div class="home-btn">
+                        <button>Learn More <i class="fa-solid fa-arrow-right"></i></button>
+                        <button>Download CV <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <img src="Image/home.png" alt="home">
+                </div>
+            </div>
+        </section>
+
+        <!-- button back to top -->
+        <button id="top" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <!-- about -->
+        <section id="about">
+            <h3>About Me</h3>
+            <div class="main-about">
+                <div class="about-img">
+                    <img src="Image/about.jpg" alt="about me">
+                </div>
+                <div class="about-text">
+                    <h4>Let's Talk <i class="fa-solid fa-arrow-right"></i></h4>
+                    <p>Hi, I'm John Michael E. Dublon and i am 19 years old, a passionate and dedicated in programming, technology. Ever since in my early education I've always been curious about how technology works, now i currently taking BSIT I want to learn more, grow, and contribute to industry.</p>
+                    <div class="about-icon">
+                        <a href="https://www.facebook.com/six.jmd" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/six_jmd/?fbclid=IwY2xjawF8TCpleHRuA2FlbQIxMAABHe_TrC3u4wNUflkJJLIeXx3bicvYsAFgj5gvCFEf0AUtNo_Ajy9W_drriA_aem_ByuHAy0tsfTUEaQC6r_2iA" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Dublonx" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects">
+            <h3>Latest Projects</h3>
+            <div class="main-projects">
+                <div class="projects card">
+                    <h4>Counter Program</h4>
+                    <img src="Image/cp.jpg" alt="code program">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/Counter-Program-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/Counter-Program-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects card">
+                    <h4>Form Validation</h4>
+                    <img src="Image/fv.jpg" alt="form validation">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/Form-Validation-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/Form-Validation-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects card">
+                    <h4>Temperature Converter</h4>
+                    <img src="Image/tc.jpg" alt="code program">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/Temperature-Converter-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/Temperature-Converter-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects card">
+                    <h4>Code Converter  </h4>
+                    <img src="Image/cc.jpg" alt="code program">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/CodeConverter-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/CodeConverter-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects card">
+                    <h4>Quote Generator</h4>
+                    <img src="Image/qg.jpg" alt="code program">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/Quote-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/Quote-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="projects card">
+                    <h4>Calculator Program</h4>
+                    <img src="Image/cp.jpg" alt="code program">
+                    <p>Details...</p>
+                    <div class="projects-icon">
+                        <a href="https://dublonx.github.io/Calculator-Project/" target="_blank">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Dublonx/Calculator-Project" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <div class="main-contact">
+                <div class="contact card">
+                    <input type="email" placeholder="Enter your email..." required>
+                    <input type="password" placeholder="Enter your password..." required>
+                    <textarea rows="10" cols="30" placeholder="Leave a message..."></textarea>
+                    <div class="contact-btn">
+                        <button>Send <i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <div class="footer">
+            <p>All Right Reserved, Jmxnz 2024 - 2025</p>
+        </div>
+    </div>
+
+    <!-- javascript plugin -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
