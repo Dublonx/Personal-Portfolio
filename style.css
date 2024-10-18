@@ -382,7 +382,7 @@ section h3::after {
     .navbar #bars {
         display: block;
         color: whitesmoke;
-        font-size: 15px;
+        font-size: 17px;
         cursor: pointer;
     }
 
@@ -406,11 +406,12 @@ section h3::after {
         display: block;
         padding: 10px;
         color: whitesmoke;
+        font-size: 17px;
     }
 
     /* section */
     section {
-        padding: 4rem 30px;
+        padding: 5rem 30px;
     }
 
     section h3 {
@@ -458,6 +459,7 @@ section h3::after {
     /* button back to top */
     #top {
         display: none;
+        padding: 10px;
     }
 
     /* about */
@@ -490,10 +492,6 @@ section h3::after {
         grid-template-columns: repeat(1, 1fr);
         place-items: center;
         gap: 1.5rem;
-    }
-
-    .projects {
-        width: auto;
     }
 
     .projects h4 {
